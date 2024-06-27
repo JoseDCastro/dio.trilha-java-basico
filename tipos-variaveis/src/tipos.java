@@ -26,8 +26,11 @@ public class tipos {
 // As constantes são valores que não podem ser alterados durante a execução do programa.
 
     public static void varConst(String[] args) {
-        
+        final double VALOR_DE_PI = 3.14;  // devido a termos Final antecipando o método double, não é permitido que haja alteração em seu  valor 
+
+        //VALOR_DE_PI = 10.75;  // por isso ele demonstra o err na variável, pelo valor não corresponder a mesma
     }
+
 }
 
 
